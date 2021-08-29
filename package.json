@@ -1,0 +1,26 @@
+{
+  "name": "datatype-pitch",
+  "version": "0.0.1",
+  "description": "A simple way to work with musical pitches",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cnasc/datatype-pitch.git"
+  },
+  "keywords": [
+    "music-theory",
+    "pitch"
+  ],
+  "author": "Christopher Nascone <chris@nasc.one>",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/cnasc/datatype-pitch/issues"
+  },
+  "homepage": "https://github.com/cnasc/datatype-pitch#readme",
+  "devDependencies": {
+    "typescript": "^4.4.2"
+  }
+}
