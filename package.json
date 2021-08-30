@@ -4,7 +4,8 @@
   "description": "A simple way to work with musical pitches",
   "main": "src/datatype-pitch.ts",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "build": "tsc --declaration"
   },
   "repository": {
     "type": "git",

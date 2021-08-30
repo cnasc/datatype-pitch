@@ -51,7 +51,9 @@ export class Pitch {
     const modifierValue =
       MODIFIER_VALUES[modifier as keyof typeof MODIFIER_VALUES] || 0;
     const sum = baseNoteValue + modifierValue;
-    let registerValue = parseInt(register);
+
+    // If the regexp matches, register definitely exists.
+    let registerValue = parseInt(register!);
 
     if (sum < 0) {
       --registerValue;
