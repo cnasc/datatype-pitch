@@ -2,9 +2,9 @@
   "name": "datatype-pitch",
   "version": "0.0.1",
   "description": "A simple way to work with musical pitches",
-  "main": "index.js",
+  "main": "src/datatype-pitch.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,9 @@
   },
   "homepage": "https://github.com/cnasc/datatype-pitch#readme",
   "devDependencies": {
+    "@types/jest": "^27.0.1",
+    "jest": "^27.1.0",
+    "ts-jest": "^27.0.5",
     "typescript": "^4.4.2"
   }
 }
