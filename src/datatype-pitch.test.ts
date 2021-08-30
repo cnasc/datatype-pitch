@@ -25,5 +25,8 @@ describe('Pitch class', () => {
       expect(p.pitchClass).toBe(expectedPitchClass);
       expect(p.register).toBe(expectedRegister);
     });
+    it('signals an error on bad input', () => {
+      expect(() => Pitch.fromString('some random nonsense')).toThrowError();
+    });
   });
 });
